@@ -2,8 +2,9 @@
   --text-primary-color: #212121;
   --text-secondary-color: #757575;
   --text-accent-color: #2196f3;
-  --main0background: #FFFFFF;
-  --footer-background-color: #2f303a;
+  --mainbackground: #FFFFFF;
+  --second-background-color: #2f303a;
+  --third-background-color: #F5F4FA;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   text-decoration: none;
 }
 
-.nav-logo:hover,
+/* .nav-logo:hover, */
 .nav-logo:focus {
   color: var(--text-accent-color);
 }
@@ -49,7 +50,53 @@ body {
 .main-nav .nav-link.current {
   color: var(--text-accent-color);
 }
+/* Studio page */
+.hero-section{
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  background: var(--second-background-color);
+  color: var(--mainbackground)
+}
+/* advantages */
+.advantages-heading{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.advantages-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-secondary-color);
+}
+/* what we do */
+.section-heading{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* our team */
+.team-section{
+  background: var(--third-background-color);
+}
+.team-heading{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--text-secondary-color);
+}
 
+/* portfolio */
 /* filter buttons */
 .btn {
   font-weight: 500;
@@ -59,11 +106,11 @@ body {
 }
 .btn:hover, .btn:focus{
   background: var(--text-accent-color);
-  color: var(--main0background);
+  color: var(--mainbackground);
 }
 .blue-btn{
   background: var(--text-accent-color);
-  color: var(--main0background);
+  color: var(--mainbackground);
 }
 /* works */
 .works-head{
@@ -80,15 +127,15 @@ body {
 
 /* footer */
 .footer-nav{
-  background: var(--footer-background-color);
+  background: var(--second-background-color);
 }
 .footer-logo{
-  color: var(--main0background);
+  color: var(--mainbackground);
 }
 .footer-text{
   font-size: 14px;
   line-height:1.71 ;
-  color: var(--main0background);
+  color: var(--mainbackground);
   font-style: normal;
 }
 .footer-links{
