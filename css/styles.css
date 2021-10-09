@@ -2,9 +2,9 @@
   --text-primary-color: #212121;
   --text-secondary-color: #757575;
   --text-accent-color: #2196f3;
-  --mainbackground: #FFFFFF;
+  --mainbackground: #ffffff;
   --second-background-color: #2f303a;
-  --third-background-color: #F5F4FA;
+  --third-background-color: #f5f4fa;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: var(--text-primary-color);
 }
-.contacts{
+.contacts {
   color: var(--text-secondary-color);
 }
 
@@ -51,44 +51,44 @@ body {
   color: var(--text-accent-color);
 }
 /* Studio page */
-.hero-section{
+.hero-section {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
   background: var(--second-background-color);
-  color: var(--mainbackground)
+  color: var(--mainbackground);
 }
 /* advantages */
-.advantages-heading{
+.advantages-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
 }
-.advantages-text{
+.advantages-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-secondary-color);
 }
 /* what we do */
-.section-heading{
+.section-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 /* our team */
-.team-section{
+.team-section {
   background: var(--third-background-color);
 }
-.team-heading{
+.team-heading {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
 }
-.team-text{
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
@@ -104,21 +104,22 @@ body {
   line-height: 1.62;
   cursor: pointer;
 }
-.btn:hover, .btn:focus{
+.btn:hover,
+.btn:focus {
   background: var(--text-accent-color);
   color: var(--mainbackground);
 }
-.blue-btn{
+.blue-btn {
   background: var(--text-accent-color);
   color: var(--mainbackground);
 }
 /* works */
-.works-head{
+.works-head {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.works-filter{
+.works-filter {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -126,20 +127,20 @@ body {
 }
 
 /* footer */
-.footer-nav{
+.footer-nav {
   background: var(--second-background-color);
 }
-.footer-logo{
+.footer-logo {
   color: var(--mainbackground);
 }
-.footer-text{
+.footer-text {
   font-size: 14px;
-  line-height:1.71 ;
+  line-height: 1.71;
   color: var(--mainbackground);
   font-style: normal;
 }
-.footer-links{
+.footer-links {
   line-height: 1.71;
-  color: #FFFFFF99 ;
+  color: #ffffff99;
   font-style: normal;
 }
