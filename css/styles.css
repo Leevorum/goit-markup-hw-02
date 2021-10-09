@@ -7,6 +7,7 @@
   --mainbackground: #ffffff;
   --second-background-color: #2f303a;
   --third-background-color: #f5f4fa;
+  --background-accent: #188ce8;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   list-style: none;
 }
 .nav-logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -54,17 +55,35 @@ body {
 }
 /* Studio page */
 .hero-section {
+  background: var(--second-background-color);
+  text-align: center;
+}
+.hero-heading {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
-  text-align: center;
-  background: var(--second-background-color);
+  text-transform: uppercase;
   color: var(--mainbackground);
 }
+.hero-btn {
+  font-weight: 700;
+  font-size: var(--secondary-font-size);
+  line-height: 1.87;
+  cursor: pointer;
+  background: var(--text-accent-color);
+  color: var(--mainbackground);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background: var(--background-accent);
+}
+
 /* advantages */
 .advantages-heading {
   font-size: var(--main-font-size);
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .advantages-text {
   font-size: var(--main-font-size);
@@ -101,6 +120,7 @@ body {
   font-size: var(--secondary-font-size);
   line-height: 1.62;
   cursor: pointer;
+  background: var(--third-background-color);
 }
 .btn:hover,
 .btn:focus {
