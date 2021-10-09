@@ -114,7 +114,7 @@ body {
   color: var(--mainbackground);
 }
 /* works */
-.works-head {
+.works-heading {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
