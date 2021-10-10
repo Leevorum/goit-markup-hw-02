@@ -135,6 +135,7 @@ body {
 .works-heading {
   font-size: 18px;
   line-height: 2;
+  color: var(--text-primary-color);
 }
 .works-filter {
   font-size: var(--secondary-font-size);
